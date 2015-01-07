@@ -1,0 +1,27 @@
+{
+  "name": "gulp-helper",
+  "version": "1.0.0",
+  "description": "gulp helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phi-jp/gulp-helper.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "phi-jp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phi-jp/gulp-helper/issues"
+  },
+  "homepage": "https://github.com/phi-jp/gulp-helper",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-rename": "^1.2.0"
+  }
+}
