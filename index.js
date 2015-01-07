@@ -7,10 +7,10 @@ module.exports = {
 
   require: function(options) {
     options = options || {};
-    options.package = './package.json',
+    options.package = options.package || 'package.json';
     options.global = (options.global !== undefined) ? options.global: true;
 
-    var pkg = require('./package.json');
+    var pkg = require(process.cwd() + '/' + options.package);
     Object.keys(pkg.devDependencies).forEach(function(key) {
       // check
       if (/^gulp\-/.test(key) == false || key == 'gulp-helper') return ;
